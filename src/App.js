@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import Calculator from './component/Calculator';
-import EyeCam from './EYECAM/EyeCam';
+import Img from './Components/Img';
+import QuestionData from './Components/QuestionData';
 function App() {
   return (
     <div className="App">
-      {/* <Calculator /> */}
-      <EyeCam />
+      <Img/>
     </div>
   );
 }

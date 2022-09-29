@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+.main-container{
+    background-color: rgb(240 237 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 85vh;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.main {
+    border: none;
+    background-color: white;
+    width: 48vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.sub1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+}
+ h5{
+    font-size: 18px;
+    font-weight: 350;
+}
+h3{
+    font-size: 24px;
+    font-weight:350;
+}
+.btn1{
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    color: rgb(143, 140, 140);
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 0.3rem;
+    background-color: white;
+}
+.toggle--btn1{
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    background-color: red;
+    color: white;
+}
+.toggle--btn2{
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    background-color: white;
+    color: rgb(143, 140, 140);;
+}
+.toggle-btn1{
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    background-color: green;
+    color: white;
+}
+
+.btn2{
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 9.5rem;
+    color: rgb(143, 140, 140);
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 0.3rem;
+    background-color: white;
+}
+.btn3{
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    margin-right: 2rem;
+    color: rgb(143, 140, 140);
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 0.3rem;
+    background-color: white;
+
+}
+.btn4{
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 8.9rem;
+    color: rgb(143, 140, 140);
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 0.3rem;
+    background-color: white;
+}
+
+.btn6{
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 5.4rem;
+    color: rgb(143, 140, 140);
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 0.3rem;
+    background-color: white;
+
+}
+
+.btn8{
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 4.1rem;
+    color: rgb(143, 140, 140);
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 0.3rem;
+    background-color: white;
+
+}
+
+.btn10{
+    width: 60px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 3.8rem;
+    color: rgb(143, 140, 140);
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 0.3rem;
+    background-color: white;
+
+}
+
+.sub2 h3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 5px 2rem;
+}
+
+.sub2_main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left:5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.sub3 {
+    margin: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr {
+    width: 43vw;
+    margin-left: 2rem;
+
+}
+.btn5{
+    border: none;
+    border-radius: 0.3rem;
+    width: 140px;
+    height: 45px;
+    font-size: 24px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(61, 5, 114);
+    color: white;
+}
+.bt5:hover {
+    cursor: pointer;
+}
