@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Img from './Components/Img';
-import QuestionData from './Components/QuestionData';
+import CountiresTable from './Components/CountiresTable';
+
 function App() {
   return (
     <div className="App">
-      <Img/>
+      <CountiresTable/>
     </div>
   );
 }
