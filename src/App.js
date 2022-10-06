@@ -1,11 +1,17 @@
 import React from 'react';
 import './App.css';
-import CountiresTable from './Components/CountiresTable';
+import RandomNumber from './Components/RandomNumber';
+// import Forms from './interview Task/Forms';
+import FormikContainer from './interview Task/FormikContainer';
+import { Provider } from 'react-redux';
+import store from './redux/store'
 
 function App() {
   return (
-    <div className="App">
-      <CountiresTable/>
+    <div className="App mt-3">
+      <Provider store={store}>
+      <FormikContainer/>
+      </Provider>
     </div>
   );
 }
