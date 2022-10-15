@@ -1,0 +1,48 @@
+.title {
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #e4e4e4;
+    text-transform: uppercase;
+    font-family: Oswald;
+}
+
+.body {
+    flex-grow: 1;
+}
+
+.row {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.block {
+    flex-grow: 1;
+}
+
+.text {
+    width: 60%;
+    margin: 10;
+    font-family: Oswald;
+    text-align: justify;
+}
+
+.fill1 {
+    width: 40%;
+    background-color: #e14427;
+}
+
+.fill2 {
+    flex-grow: 2;
+    background-color: #e6672d;
+}
+
+.fill3 {
+    flex-grow: 2;
+    background-color: #e78632;
+}
+
+.fill4 {
+    flex-grow: 2;
+    background-color: '#e29e37';
+}
